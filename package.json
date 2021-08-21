@@ -1,0 +1,17 @@
+{
+  "name": "namozvaqtlariapi",
+  "version": "1.0.0",
+  "description": "Namoz time api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zero8D",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "html-table-to-json": "^1.0.0",
+    "node-html-parser": "^4.1.3"
+  }
+}
