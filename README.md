@@ -2,7 +2,7 @@
 
 Namoz vaqtlarini olish uchun islom.uz taqvimi bilan aynan mos keladigan API topa olmadim shuning uchun. Islom.uz saytidagi taqvimni olib sizga json korinishida jo'natib beradigan API yasadim.
 Ayni paytda API ga json murojaat bilan murojaat qilishingiz mumkin.
-so'rov parametri|ta'rif
+
 
 ## API endpoints:
 Endpoint|Vazifasi
@@ -10,6 +10,7 @@ Endpoint|Vazifasi
 /api/monthly|Oylik ma'lumot qaytaradi
 /api/daily|Kunlik ma'lumot qaytaradi
 
+so'rov parametri|ta'rif
 ----------------|------
 region          |hudud nomi `type: String` masalan: "Toshkent", "Qo'qon"
 month           |Oy raqami. `type: Number` masalan: 9, "09"
