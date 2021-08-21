@@ -5,6 +5,7 @@ const HtmlTableToJson = require("html-table-to-json")
 const { parse } = require("node-html-parser")
 const regions = require("./regions.json")
 const months = require("./months.json")
+const port = process.env.PORT || 3000
 app.use(express.json())
 
 app.get("/", (req, res) => {
