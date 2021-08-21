@@ -1,4 +1,4 @@
-# Assalomu alaykum
+# Namoz vaqtlari dasturlash interfeysi (API)
 
 Namoz vaqtlarini olish uchun islom.uz taqvimi bilan aynan mos keladigan API topa olmadim shuning uchun. Islom.uz taqvimini API ga o'zim konvertatsiya qilishga qaror qildim.
 Ayni paytda API ga json murojaat qilishingiz mumkin.
