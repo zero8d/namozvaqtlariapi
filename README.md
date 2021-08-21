@@ -18,7 +18,7 @@ region          |hudud nomi `type: String` masalan: "Toshkent", "Qo'qon"
 month           |Oy raqami. `type: Number` masalan: 9, "09"
 day             |Kun raqami. `typr: Number` masalan: 15, "04"
 
-## masalan:
+### masalan:
 oylik ma'lumot uchun
 
 ```JSON
