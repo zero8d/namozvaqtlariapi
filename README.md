@@ -1,7 +1,7 @@
 # Namoz vaqtlari dasturlash interfeysi (API)
 
 Namoz vaqtlarini olish uchun islom.uz taqvimi bilan aynan mos keladigan API topa olmadim shuning uchun. Islom.uz saytidagi taqvimni olib sizga json korinishida jo'natib beradigan API yasadim.
-Bu dastur islom.uz saytidagi namoz vaqtlari jadvalini olib sizga obyekt qilib qaytarib beradi. Agar sizga API tezligi muhim bo'lsa ma'lumotni malumotlar bazasidan oladigan [NamozVaqtiAPI](https://github.com/zero8d/namozvatiapi) dan foydalanishingizni maslaxat beraman.
+Bu dastur islom.uz saytidagi namoz vaqtlari jadvalini olib sizga obyekt qilib qaytarib beradi. Agar sizga API tezligi muhim bo'lsa ma'lumotni malumotlar bazasidan oladigan [NamozVaqtiAPI](https://github.com/zero8d/namozvaqtiapi) dan foydalanishingizni maslaxat beraman.
 Ayni paytda API ga json murojaat bilan murojaat qilishingiz mumkin.
 
 ## API endpoints:
