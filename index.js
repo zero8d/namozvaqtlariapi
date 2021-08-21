@@ -6,6 +6,7 @@ const { parse } = require("node-html-parser")
 const regions = require("./regions.json")
 const months = require("./months.json")
 app.use(express.json())
+
 app.get("/", (req, res) => {
   res.send("Welcome our API!")
 })
