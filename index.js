@@ -9,7 +9,9 @@ const port = process.env.PORT
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome our API!</h1>")
+  res.send(
+    `<h1>Welcome our API! <br/> <a href="https://github.com/zero8d/namozvaqtlariapi/">Read API documentation</a></h1>`
+  )
 })
 app.get("/api/monthly/", async (req, res) => {
   let { region, month } = req.body
