@@ -57,7 +57,7 @@ app.get("/api/daily/", async (req, res) => {
   }
 })
 
-app.listen(3000)
+app.listen(port)
 
 async function getData(region, month) {
   const resData = await axios.get(`https://islom.uz/vaqtlar/${region}/${month}`)
