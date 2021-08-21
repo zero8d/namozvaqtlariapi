@@ -10,6 +10,8 @@ Endpoint|Vazifasi
 /api/monthly|Oylik ma'lumot qaytaradi
 /api/daily|Kunlik ma'lumot qaytaradi
 
+## So'rov parapertlari
+
 so'rov parametri|ta'rif
 ----------------|------
 region          |hudud nomi `type: String` masalan: "Toshkent", "Qo'qon"
