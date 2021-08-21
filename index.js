@@ -8,7 +8,7 @@ const months = require("./months.json")
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("Welcome our API!")
+  res.send("<h1>Welcome our API!</h1>")
 })
 app.get("/api/monthly/", async (req, res) => {
   let { region, month } = req.body
