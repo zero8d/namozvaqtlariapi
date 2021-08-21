@@ -9,13 +9,19 @@ month           |Oy raqami. `type: Number` masalan: 9, "09"
 day             |Kun raqami. `typr: Number` masalan: 15, "04"
 
 ## API endpoints:
-Oylik ma'lumot uchun
-`https://namoztime.herokuapp.com/api/monthly/`
-Kunlik ma'lumot uchun
-`https://namoztime.herokuapp.com/api/daily/`
+Endpoint|Vazifasi
+--------|--------
+/api/monthly|Oylik ma'lumot qaytaradi
+/api/daily|Kunlik ma'lumot qaytaradi
 
 ## masalan:
 oylik ma'lumot uchun
-`{ "region": "toshkent", "month": 9 }`
+
+```JSON
+{ "region": "toshkent", "month": 9 }
+```
+
 kunlik ma'lumot uchun:
-`{ "region": "toshkent", "month": 9, "day": 12 }`
+```JSON
+{ "region": "toshkent", "month": 9, "day": 12 }
+```
